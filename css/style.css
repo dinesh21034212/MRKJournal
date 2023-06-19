@@ -511,6 +511,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     font-size: 25px;
   }
 
+  /**twitter**/
+.twitter-icon {
+    position: fixed;
+    bottom: 30%;
+    right: 20px;
+    z-index: 1;
+    background: white; 
+    background-size: 60%;
+    color:#1DA1F2;
+    padding: 8px;
+    border-radius: 50%;
+    text-decoration: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+  .twitter-icon i {
+    font-size: 25px;
+  }
+
 
   /*-----Get Offer-----*/
 #offer-wrapper{
