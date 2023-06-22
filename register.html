@@ -84,31 +84,31 @@
         </div>
         <div class="col-md-5 col-sm-6 col-12" >
     
-                <form id="register">
+                <form id="register" action="https://formspree.io/f/xlekqqep" method="post">
                     <h3 align="center" class="display-6 text-black animated slideInDown">Register</h3>
                     <label for="name">Full Name*</label>
-                    <input type="text" id="name" placeholder="Enter Your Name" required>
+                    <input type="text" id="name" placeholder="Enter Your Name" required autocomplete="off" name="Name">
                     <label for="phnumber">Phone Number*</label>
-                    <input type="text" id="phnumber" placeholder="Contact Number" required>
+                    <input type="text" id="phnumber" placeholder="Contact Number" required autocomplete="off" name="Number">
                     <label for="email">Email*</label>
-                    <input type="email" id="email" placeholder="username@email.com" required>
+                    <input type="email" id="email" placeholder="username@email.com" required autocomplete="off" name="Email">
                     <label for="services">Services*</label>
-                    <select name="services" id="services">
+                    <select name="services" id="services" >
                         <option value="null">Select Services</option>
-                        <option value="Thesis">Thesis writing</option>
-                        <option value="Funding">Funding Proposal writing</option>
-                        <option value="IEEE"> IEEE explore conference proceeding paper writing</option>
-                        <option value="Scopus"> Scopus indexed journals paper writing</option>
-                        <option value="UGC">WoS/UGC/ABDC journals paper writing </option>
+                        <option value="Thesis writing">Thesis writing</option>
+                        <option value="Funding Proposal">Funding Proposal writing</option>
+                        <option value="IEEE Explore"> IEEE explore conference proceeding paper writing</option>
+                        <option value="Scopus journal writing"> Scopus indexed journals paper writing</option>
+                        <option value="UGC paper writing">WoS/UGC/ABDC journals paper writing </option>
                         <option value="SCIE">SCI/SCIE regular/special issues paper writing</option>
                         <option value="Patents"> Documentation , Filing & Publishing of the *PATENTS"
                         </option>
-                        <option value="bookpublication">Publication of BOOKS with ISBN Number along with reflection in GOOGLE</option>
+                        <option value="Book Publication">Publication of BOOKS with ISBN Number along with reflection in GOOGLE</option>
                     </select>
                     <label for="topic">Topic*</label>
-                    <input type="text" id="topic" placeholder="Your Topic">
+                    <input type="text" id="topic" placeholder="Your Topic" autocomplete="off" name="Topic">
                     <label for="message">Message*</label>
-                    <textarea name="message" id="msg" placeholder="Anything you want to say?" rows="5"></textarea>
+                    <textarea name="message" id="msg" placeholder="Anything you want to say?" rows="5" autocomplete="off"></textarea>
                     <hr>
                     <button  type="submit" class="submit">Submit</button>
                     <hr>
@@ -118,7 +118,8 @@
             
         </div>
     </div>
-    <a href="https://wa.me/8500370056" target="_blank" class="whatsapp-icon">
+    
+    <a href="https://wa.me/918500370056" target="_blank" class="whatsapp-icon">
         <i class="fab fa-whatsapp"></i>
       </a>
     <!-- close Whats app icon-->
@@ -157,7 +158,7 @@
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 8500370056</p>
                    <small><p class="mb-2"><i class="fa fa-envelope me-3"></i>mrkresearchsolutions@gmail.com</p></small>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" target="_blank" href="https://wa.me/8500370056"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank" href="https://wa.me/918500370056"><i class="fab fa-whatsapp"></i></a>
                         <a class="btn btn-outline-light btn-social" target="_blank" href="https://www.facebook.com/profile.php?id=100092855160319"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-outline-light btn-social" target="_blank" href="https://www.instagram.com/mrkresearchsolution/"><i class="fab fa-instagram"></i></a>
                         <a class="btn btn-outline-light btn-social" target="_blank" href="https://twitter.com/mrkresearchsol"><i class="fab fa-twitter"></i></a>
@@ -207,6 +208,8 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    
+    
 </body>
 
 </html>
