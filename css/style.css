@@ -28,10 +28,7 @@
     visibility: hidden;
     transition: opacity .5s ease-out, visibility 0s linear .5s;
     z-index: 99999;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    
 }
 
 #spinner.show {
@@ -50,10 +47,6 @@
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     transition: .5s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
 }
 
 .btn.btn-primary,
@@ -140,10 +133,7 @@
 .navbar-light.sticky-top {
     top: -100px;
     transition: .5s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    
 }
 
 @media (min-width: 992px) {
@@ -184,6 +174,41 @@
         -ms-transition: .5s;
         -o-transition: .5s;
 }
+}
+/*-----Popular Categories-----*/
+#Popcat-wrapper{   
+	padding:50px 150px;
+	background-color: var(--light);
+	position: relative;
+}
+
+.popcat-list {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #333;
+	padding:25px 0px;
+	background-color:#fff;
+	border-bottom:1px solid #d9d9d9;
+	overflow: hidden
+}
+
+.popcat-list .fa{
+    color:var(--dark);
+}
+
+.pop-topic{
+	float: left;
+	width:80%;
+	padding-left:20px;
+}
+
+.pop-duration{
+	width:20%;
+	float:left;
+}
+
+.popcat-list:hover{
+	background-color:#5aebfb;
 }
 
 
@@ -228,10 +253,6 @@
     border: 1px solid #FFFFFF;
     font-size: 22px;
     transition: .5s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
 }
 
 .header-carousel .owl-nav .owl-prev:hover,
@@ -301,10 +322,7 @@
 .service-item {
     background: var(--light);
     transition: .5s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    
 }
 
 .service-item:hover {
@@ -314,10 +332,7 @@
 
 .service-item * {
     transition: .5s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    
 }
 
 .service-item:hover * {
@@ -329,10 +344,7 @@
 .category img,
 .course-item img {
     transition: .5s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+   
 }
 
 .category a:hover img,
@@ -348,10 +360,7 @@
 /*** Team ***/
 .team-item img {
     transition: .5s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    
 }
 
 .team-item:hover img {
@@ -403,10 +412,7 @@
 .testimonial-carousel .owl-item .testimonial-text,
 .testimonial-carousel .owl-item.center .testimonial-text * {
     transition: .5s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text {
@@ -432,10 +438,7 @@
     height: 15px;
     border: 1px solid #CCCCCC;
     transition: .5s;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+
 }
 
 .testimonial-carousel .owl-dot.active {
