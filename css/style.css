@@ -109,7 +109,7 @@
     color: var(--primary);
 }
 
-@media (max-width: 991.98px) {
+@media (min-width: 299px) and (max-width: 768px) {
     .navbar-light .navbar-nav .nav-link  {
         margin-right: 0;
         padding: 10px 0;
@@ -118,6 +118,7 @@
     .navbar-light .navbar-nav {
         border-top: 1px solid #EEEEEE;
     }
+    a.btn{height:40px}
 }
 
 .navbar-light .navbar-brand,
@@ -136,8 +137,8 @@
     
 }
 
-@media (min-width: 992px) {
-    .navbar .nav-item .dropdown-menu {
+@media (min-width: 299px) and (max-width: 768px) {
+    .navbar .nav-item .dropdown-menu .brand{
         display: block;
         margin-top: 0;
         opacity: 0;
