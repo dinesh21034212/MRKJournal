@@ -211,6 +211,14 @@
 	background-color:#5aebfb;
 }
 
+@media (min-width: 299px) and (max-width: 768px) {
+    #Popcat-wrapper {padding: 10px 10px;}
+    #Popcat-wrapper p {font-size: 14px;}
+    .popcat-list {font-size: 14px;padding: 20px 0px;}
+    .pop-topic{float: left;width:65%;padding-left:10px;}
+    .pop-duration{width:35%;float:left;padding-left: 15px;}
+}
+
 
 /*** Header carousel ***/
 @media (max-width: 768px) {
